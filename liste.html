@@ -71,7 +71,11 @@
                 <span class="fs-6 fw-light text-center">Lorem ipsum dolor sit amet</span>
             </div>
             <div class="row">
-                <div class="d-none d-lg-block col-lg-3">
+                <div class="col-12 mb-4">
+                <button class="btn btn-main-one text-white"
+                    onclick="propertyFilterDrawer.classList.toggle('active')">Filtre</button>
+                </div>
+                <div id="propertyFilterDrawer" class="d-lg-block col-lg-3 property-filter-wrapper">
                     <div class="property-filter mb-3">
                         <div class="property-filter-content">
                             <div class="property-filter-content-title">
@@ -118,6 +122,11 @@
                                 </select>
                             </div>
                         </div>
+                    </div>
+                    
+                    <div class="col-12 mb-4">
+                        <button class="btn btn-main-one m-4 text-white text-center"
+                            onclick="propertyFilterDrawer.classList.toggle('active')">Kapat</button>
                     </div>
                 </div>
                 <div class="col-12 col-lg-9">
